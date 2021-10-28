@@ -1,4 +1,4 @@
-A Simple python Script to migrate data from MySQL to MongoDB 
+####A Simple python Script to migrate data from MySQL to MongoDB 
 
 -------------------------------------------------------------------------
             Author: ArJun Gawali (arjungawali111@gmail.com)
@@ -7,11 +7,11 @@ A Simple python Script to migrate data from MySQL to MongoDB
             Purpose: Migrate Data from MySQL to Mongo
 -------------------------------------------------------------------------
 
-Functions :
+##Functions :
 
-1. migrate_all  --> Migrate all tables from mysql to mongodb 
-    - Parameters : 
-        - mysqldb_dict ==> A Python dictionary of your mysql database details 
+1. **migrate_all**  --> Migrate all tables from mysql to mongodb 
+    - **Parameters** : 
+        - **mysqldb_dict** ==> A Python dictionary of your mysql database details 
                        
                         Ex : 
                             mysqldb_dict = {
@@ -21,13 +21,13 @@ Functions :
                                 "mysql_password" : "*******",
                             }
 
-        - mongodb_host ==> Your MongoDb hostname/Url
-        - mongodb_dbname ==> Choose the name of Database in which the data has to migrate.
+        - **mongodb_host** ==> Your MongoDb hostname/Url
+        - **mongodb_dbname** ==> Choose the name of Database in which the data has to migrate.
 
-2. migrate_single  --> Migrate specified table 
+2. **migrate_single**  --> Migrate specified table 
 
-    - Parameters : 
-        - mysqldb_dict ==> A Python dictionary of your mysql database details 
+    - **Parameters** : 
+        - **mysqldb_dict** ==> A Python dictionary of your mysql database details 
         
                         Ex : 
                             mysqldb_dict = {
@@ -37,7 +37,7 @@ Functions :
                                 "mysql_password" : "*******",
                             }
 
-        - mongodb_host ==> Your MongoDb hostname/Url 
-        - mongodb_dbname ==> Choose the name of Database in which the data has to migrate.
-        - table ==> Specific table which has to migrate 
+        - **mongodb_host** ==> Your MongoDb hostname/Url 
+        - **mongodb_dbname** ==> Choose the name of Database in which the data has to migrate.
+        - **table** ==> Specific table which has to migrate 
         
