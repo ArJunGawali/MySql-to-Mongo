@@ -16,8 +16,8 @@ You can install it with following command :
 
 ## How to use :
 
-````import mysql_to_mongo
-mysql_to_mongo.migrate_all(mysqldb_dict,mongodb_host,mongodb_dbname)```
+import mysql_to_mongo
+mysql_to_mongo.migrate_all(mysqldb_dict,mongodb_host,mongodb_dbname)
 
 
 ## Functions :
