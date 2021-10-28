@@ -1,7 +1,7 @@
 CHANGELOG.txt
 LICENCE.txt
 MANIFEST.in
-README.txt
+README.md
 setup.py
 mysql_to_mongo/__init__.py
 mysql_to_mongo.egg-info/PKG-INFO

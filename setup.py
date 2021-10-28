@@ -10,9 +10,10 @@ classifiers = [
  
 setup(
   name='mysql_to_mongo',
-  version='0.0.1',
+  version='1.0.1',
   description='Migrate your MySql databse to MongoDb.',
-#   long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
+  long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
+  long_description_content_type="text/markdown",
   url='',  
   author='ArJun Gawali',
   author_email='arjungawali111@gmail.com',
