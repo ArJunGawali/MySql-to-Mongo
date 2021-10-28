@@ -1,4 +1,4 @@
-####A Simple python Script to migrate data from MySQL to MongoDB 
+#### A Simple python Script to migrate data from MySQL to MongoDB 
 
 -------------------------------------------------------------------------
             Author: ArJun Gawali (arjungawali111@gmail.com)
@@ -7,7 +7,7 @@
             Purpose: Migrate Data from MySQL to Mongo
 -------------------------------------------------------------------------
 
-##Functions :
+## Functions :
 
 1. **migrate_all**  --> Migrate all tables from mysql to mongodb 
     - **Parameters** : 
