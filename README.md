@@ -1,4 +1,5 @@
-A Simple python Script to migrate data from MySQL to MongoDB 
+#### A Simple python Script to migrate data from MySQL to MongoDB 
+
 
 -------------------------------------------------------------------------
             Author: ArJun Gawali (arjungawali111@gmail.com)
@@ -6,13 +7,16 @@ A Simple python Script to migrate data from MySQL to MongoDB
             Version: 1.0.1
             Purpose: Migrate Data from MySQL to Mongo
 -------------------------------------------------------------------------
+You can find the module [here](https://pypi.org/project/mysql-to-mongo/0.0.1/)
+You can install it with following command :
+> pip install mysql-to-mongo==0.0.1
 
-Functions :
+## Functions :
 
-1. migrate_all  --> Migrate all tables from mysql to mongodb
-
-    Parameters : 
-        1. mysqldb_dict ==> A Python dictionary of your mysql database details 
+1. **migrate_all** : Migrate all tables from mysql to mongodb 
+    - **Parameters** : 
+        - **mysqldb_dict** : A Python dictionary of your mysql database details 
+                       
                         Ex : 
                             mysqldb_dict = {
                                 "mysql_host" :"localhost",
@@ -20,13 +24,15 @@ Functions :
                                 "mysql_user" : "root",
                                 "mysql_password" : "*******",
                             }
-        2. mongodb_host ==> Your MongoDb hostname/Url
-        3. mongodb_dbname ==> Choose the name of Database in which the data has to migrate.
 
-2. migrate_single  --> Migrate specified table 
+        - **mongodb_host** : Your MongoDb hostname/Url
+        - **mongodb_dbname** : Choose the name of Database in which the data has to migrate.
 
-    Parameters : 
-        1. mysqldb_dict ==> A Python dictionary of your mysql database details 
+2. **migrate_single** : Migrate specified table 
+
+    - **Parameters** : 
+        - **mysqldb_dict** : A Python dictionary of your mysql database details 
+        
                         Ex : 
                             mysqldb_dict = {
                                 "mysql_host" :"localhost",
@@ -34,7 +40,8 @@ Functions :
                                 "mysql_user" : "root",
                                 "mysql_password" : "*******",
                             }
-        2. mongodb_host ==> Your MongoDb hostname/Url
-        3. mongodb_dbname ==> Choose the name of Database in which the data has to migrate.
-        4. table ==> Specific table which has to migrate 
+
+        - **mongodb_host** : Your MongoDb hostname/Url 
+        - **mongodb_dbname** : Choose the name of Database in which the data has to migrate.
+        - **table** : Specific table which has to migrate 
         
