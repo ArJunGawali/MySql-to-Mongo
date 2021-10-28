@@ -9,10 +9,10 @@
 
 ---
 
-You can find the module [here](https://pypi.org/project/mysql-to-mongo/1.0.1/)
+You can find the module [here](https://pypi.org/project/mysql-to-mongo/1.0.2/)
 You can install it with following command :
 
-> pip install mysql-to-mongo==0.0.1
+> pip install mysql-to-mongo==1.0.2
 
 ## Functions :
 
