@@ -4,20 +4,23 @@
 
             Author: ArJun Gawali (arjungawali111@gmail.com)
             Date: 27 Oct, 2021
-            Version: 1.0.1
+            Version: 1.0.3
             Purpose: Migrate Data from MySQL to Mongo
 
 ---
 
-You can find the module [here](https://pypi.org/project/mysql-to-mongo/1.0.2/)
+You can find the module [here](https://pypi.org/project/mysql-to-mongo/1.0.3/)
 You can install it with following command :
 
-> pip install mysql-to-mongo==1.0.2
+> pip install mysql-to-mongo==1.0.3
 
 ## How to use :
+
 ---
+
             import mysql_to_mongo
             mysql_to_mongo.migrate_all(mysqldb_dict,mongodb_host,mongodb_dbname)
+
 ---
 
 ## Functions :
@@ -56,4 +59,7 @@ You can install it with following command :
       - **mongodb_host** : Your MongoDb hostname/Url
       - **mongodb_dbname** : Choose the name of Database in which the data has to migrate.
       - **table** : Specific table which has to migrate
-````
+
+```
+
+```
