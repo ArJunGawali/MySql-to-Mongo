@@ -12,7 +12,8 @@ Functions :
 1. migrate_all  --> Migrate all tables from mysql to mongodb 
     - Parameters : 
         - 1. mysqldb_dict ==> A Python dictionary of your mysql database details 
-                        - Ex : 
+                       
+                       - Ex : 
                         ```
                             mysqldb_dict = {
                                 "mysql_host" :"localhost",
@@ -28,6 +29,7 @@ Functions :
 
     - Parameters : 
         - 1. mysqldb_dict ==> A Python dictionary of your mysql database details 
+        
                         - Ex : 
                                     ```
                                         mysqldb_dict = {
