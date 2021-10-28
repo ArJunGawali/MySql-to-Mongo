@@ -14,6 +14,12 @@ You can install it with following command :
 
 > pip install mysql-to-mongo==1.0.2
 
+## How to use :
+
+````import mysql_to_mongo
+mysql_to_mongo.migrate_all(mysqldb_dict,mongodb_host,mongodb_dbname)```
+
+
 ## Functions :
 
 1.  **migrate_all** : Migrate all tables from mysql to mongodb
@@ -50,3 +56,4 @@ You can install it with following command :
       - **mongodb_host** : Your MongoDb hostname/Url
       - **mongodb_dbname** : Choose the name of Database in which the data has to migrate.
       - **table** : Specific table which has to migrate
+````
