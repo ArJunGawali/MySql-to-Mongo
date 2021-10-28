@@ -12,7 +12,11 @@
 You can find the module [here](https://pypi.org/project/mysql-to-mongo/1.0.2/)
 You can install it with following command :
 
+<<<<<<< HEAD
 > pip install mysql-to-mongo==1.0.2
+=======
+> pip install mysql-to-mongo==1.0.1
+>>>>>>> 3c80abfce0d1d321ab2b7b1932f823ab0c215226
 
 ## Functions :
 
